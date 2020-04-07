@@ -1,0 +1,168 @@
+.flexcontainer
+{
+    display: flex;
+}
+h1
+{
+    font-weight: 700;
+}
+.flexcontain
+{
+    display: flex;
+}
+.text
+{
+    margin: auto;
+    font-weight: 400;
+    text-align: left;
+}
+.boxed
+{
+    height: 500px;
+    margin: 2rem;
+    width: 300px;
+}
+input[type=email]
+{
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid darkgray;
+}
+input[id=email1]
+{
+    height: 25px;
+    border: 0 solid gray;
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+    margin-left: auto;
+    width: 125%;
+}
+img
+{
+    width: 50%;
+}
+.but
+{
+    margin: auto;
+    display: inline-block;
+}
+nav
+{
+    text-align: right;
+}
+nav a
+{
+    padding: 10px 5px;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+}
+button[type=submit]
+{
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    width: 150px;
+    height: 40px;
+    padding: 0 30px;
+    margin-top: 5px;
+    color: white;
+}
+.S1
+{
+    background-color: hsl(238, 22%, 44%);
+    display: flex;  
+    color: white; 
+    padding: 12px 20px;
+    margin: 0 auto;
+}
+.S2
+{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+.S2.S2s
+{
+    float: left;
+    margin-right: 1.6rem;
+    position: relative;
+    top: 1.0rem;
+}
+.S2.S2t
+{
+    margin-top: 5.5rem;
+}
+.S2.S2u
+{
+    margin-top: 3.5rem;
+}
+.S2.column
+{
+    margin-top: 1.5rem;
+}
+button[type=button]
+{
+    background-color: transparent;
+    text-decoration: underline;
+    color: hsl(170, 45%, 43%);
+    border: none;
+}
+li
+{
+    list-style-type: none;
+}
+@media screen and (max-device-width: 480px) {
+    .flexcontain{
+        flex-direction: column-reverse;
+        width: 100%;  
+        margin: 0 auto;
+}
+.flexcontainer
+{
+    flex-direction: column;
+    max-width: 100%;
+}
+.S1
+{
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;    
+}
+.S2
+{
+    flex-direction: column;
+    max-width: 100%;
+    margin: 0 auto;
+}
+img
+{
+    width: 100%;
+    height: auto;
+}
+.boxed
+{
+    text-align: left;
+}
+.text
+{
+    text-align: center;
+}
+input[type=email], input[id=email1]
+{
+    width: 100%;
+    box-sizing: border-box;
+}
+button[type=submit]
+{
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+.column
+{
+    width: 100px;
+}
+}
